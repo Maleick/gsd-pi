@@ -38,32 +38,19 @@ tmp/
 packages/*/dist/
 packages/*/node_modules/
 
-# ── GSD baseline (auto-generated) ──
+# ── Tool/agent artifacts ──
+.gsd/
+.bg-shell/
+.bg_shell
+.serena/
+.codex/
+.claude/settings.local.json
 dist/
 !/pkg/dist/modes/
 !/pkg/dist/core/export-html/
-.bg_shell
 .gsd*.tgz
 .artifacts/
 AGENTS.md
-.bg-shell/
 TODOS.md
 .planning/
 .audits/
-
-# ── GSD baseline (auto-generated) ──
-.gsd/activity/
-.gsd/runtime/
-.gsd/worktrees/
-.gsd/auto.lock
-.gsd/metrics.json
-.gsd/completed-units.json
-.gsd/STATE.md
-.gsd/gsd.db
-.gsd/DISCUSSION-MANIFEST.json
-.gsd/milestones/**/*-CONTINUE.md
-.gsd/milestones/**/continue.md
-
-# ── GSD baseline (auto-generated) ──
-.gsd/forensics/
-.gsd/parallel/
